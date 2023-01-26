@@ -175,7 +175,6 @@ footer {
         bottom: 0;
         left: 0;
         right: 0;
-        border: 1px solid white;
         background: radial-gradient(circle at 70% 35%, var(--secondary-oo), rgba(0,0,0,0) 500px),
                         radial-gradient(circle at 30% 55%, var(--primary-oo), rgba(0,0,0,0) 500px)
     }
