@@ -69,9 +69,17 @@ section {
     background-color: var(--primary-o);
     color: var(--primary);
     border-radius: 999px;
-    padding: 0.5em 3em;
+    padding: 0.5em 2em;
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .section-title {
+        padding: 0.5em 3em;
+        font-size: 1.5rem;
+    }
 }
 
 .section-title-secondary {
