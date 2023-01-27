@@ -150,6 +150,26 @@ section {
 
 footer {
     padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+footer .footer-icon {
+    filter: invert(98%) sepia(14%) saturate(362%) hue-rotate(174deg) brightness(93%) contrast(99%);
+    width: 30px;
+}
+
+footer .footer-logo {
+    width: 120px;
+}
+
+@media (min-width: 768px) {
+    footer .footer-logo {
+        width: 200px;
+    }
+
+    footer .footer-icon {
+        width: 50px;
+    }
 }
 
 .relative {
