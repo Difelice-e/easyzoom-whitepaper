@@ -66,7 +66,6 @@ section {
 }
 
 .section-title {
-    /* background-color: var(--primary-o); */
     background: linear-gradient(var(--primary-o), var(--primary-oo));
     color: var(--primary);
     border-radius: 999px;
